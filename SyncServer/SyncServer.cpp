@@ -7,6 +7,9 @@ const int max_length = 1024;
 typedef std::shared_ptr<tcp::socket> socket_ptr;
 std::set<std::shared_ptr<std::thread>> thread_set;//定义一个线程集合
 using namespace std;
+void testPush(void) {
+	cout << "这是一个测试git提交的函数" << endl;
+}
 //这是第一次修改
 void session(socket_ptr sock) {//在该函数中处理客户端发送过来的数据
 	try{
