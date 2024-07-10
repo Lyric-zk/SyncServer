@@ -2,6 +2,9 @@
 #include <boost/asio.hpp>
 #include <set>
 #include <memory>
+/*
+	这是master分支！！！
+*/
 using boost::asio::ip::tcp;
 const int max_length = 1024;
 typedef std::shared_ptr<tcp::socket> socket_ptr;
