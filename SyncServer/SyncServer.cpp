@@ -7,6 +7,9 @@ const int max_length = 1024;
 typedef std::shared_ptr<tcp::socket> socket_ptr;
 std::set<std::shared_ptr<std::thread>> thread_set;//定义一个线程集合
 using namespace std;
+/*
+*	这是master分支！！！
+*/
 void testPush(void) {
 	cout << "这是一个测试git提交的函数" << endl;
 }
