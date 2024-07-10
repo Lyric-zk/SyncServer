@@ -11,6 +11,10 @@ void testPush(void) {
 	cout << "这是一个测试git提交的函数" << endl;
 }
 //这是第一次修改
+
+void testPuall(void){
+	cout << "这是测试git拉取代码的函数 << endl;
+}
 void session(socket_ptr sock) {//在该函数中处理客户端发送过来的数据
 	try{
 		for (;;) {
